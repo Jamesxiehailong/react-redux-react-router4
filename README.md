@@ -4,8 +4,8 @@
 
 首先你得先clone下来，<br/>
 一、安装依赖，环境是node.js <br/>
-    直接cnpm install //那么依赖安装完成---------；<br/>
-二、npm run dev                                        //启动服务；<br/>
+    直接cnpm install &nbsp;&nbsp;&nbsp;&nbsp;//那么依赖安装完成---------；<br/>
+二、npm run dev       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &nbsp; //启动服务；<br/>
 三、打开浏览器在地址栏中输入127.0.0.1:4000,恭喜你已经可以看到界面啦：
      //其实这个端口号在webpack.config.js中可以看到啦\(≧▽≦)/！---；<br/>
 四、登陆：username:admin,password:admin; 这里就是这个后台管理系统的主要页面框架啦。<br/>
