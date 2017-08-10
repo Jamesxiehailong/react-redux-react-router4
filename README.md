@@ -10,9 +10,12 @@
      //其实这个端口号在webpack.config.js中可以看到啦\(≧▽≦)/！---；<br/>
 四、登陆：username:admin,password:admin; 这里就是这个后台管理系统的主要页面框架啦。<br/>
 
-
+<br/><br/><br/>
 
 
 
 弱弱的说一句：这个框架自己搭了一下，借鉴了ant-design的组件库。react的组件库ant-design不错，推荐推荐。
+<br/><br/><br/><br/><br/><br/>
+
+感谢感谢我师父哈哈：<a href="https://github.com/ghost60">师傅的github</a>
 
