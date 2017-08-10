@@ -1,0 +1,7 @@
+.login-form-button{
+    margin-left: 24px;
+    width: 120px;
+}
+.ant-input-affix-wrapper .ant-input {
+    min-height: 24px;
+}

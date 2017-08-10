@@ -1,0 +1,25 @@
+.head-login{
+    float: right;
+    margin-right:30px;
+  .ant-menu-horizontal{
+      border-bottom:none;
+  }
+}
+ .trigger {
+  font-size: 18px;
+  line-height: 47px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+ .trigger:hover {
+  color: #108ee9;
+}
+
+ .logo {
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px;
+}

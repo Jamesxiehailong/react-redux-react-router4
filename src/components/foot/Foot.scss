@@ -1,0 +1,22 @@
+.foot-body{
+    height: 120px;
+    background-color: #26282c;  
+    padding-top: 12px;  
+    span{
+        display: block;
+        height: 100%;
+        float:left;
+    }
+}   
+
+.foot-text{
+	color:hsla(0,0%,100%,.5);
+    margin-left: 30px;
+    font-size: 13px;
+    &.first{
+        padding-top: 12px;
+    }
+    &.last{ 
+        padding-bottom: 12px;
+    }
+}

@@ -1,0 +1,44 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	margin:0;
+    display: block;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+.Grid{
+	/* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+    width: 1024px;
+    &:after {
+	    clear: both;
+	}
+	&:before,&:after {
+	    display: table;
+	    content: " ";
+	}
+}
+.Row{
+	position: relative;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+    &:after {
+	    clear: both;
+	}
+    &:before,&:after {
+	    display: table;
+	    content: " ";
+	}
+}
+.Col{
+    position: relative;
+    min-height: 1px;
+    float: left;
+}

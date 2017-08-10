@@ -1,0 +1,77 @@
+{
+  "name": "yikejie",
+  "version": "1.0.0",
+  "description": "yikejie",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": " webpack",
+    "dev": "webpack-dev-server --progress --colors",
+    "deploy": "set NODE_ENV=production&& webpack --progress --config webpack.config.js",
+    "size": "webpack --json | webpack-bundle-size-analyzer"
+  },
+  "author": "SuperMap",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-import": "^1.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.23.0",
+    "compression-webpack-plugin": "^0.4.0",
+    "css-loader": "^0.28.1",
+    "element-resize-event": "^2.0.9",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "image-webpack-loader": "^3.3.1",
+    "lodash-webpack-plugin": "^0.11.3",
+    "moment": "^2.18.1",
+    "node-sass": "^4.5.3",
+    "react-hot-loader": "^3.0.0-beta.4",
+    "redux-devtools": "^3.3.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.2",
+    "webpack-bundle-analyzer": "^2.8.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "antd": "^2.12.5",
+    "axios": "^0.16.1",
+    "es6-promise": "^4.1.0",
+    "leaflet": "^1.0.3",
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-dom": "^15.5.4",
+    "react-leaflet": "^1.1.6",
+    "react-redux": "^5.0.1",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.1.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jamesxiehailong/react-redux-react-router4.git"
+  },
+  "standard": {
+    "ignore": [
+      "/example/",
+      "/node_modules/",
+      "webpack.config.js",
+      "/build/",
+      "/dist/"
+    ]
+  }
+}
