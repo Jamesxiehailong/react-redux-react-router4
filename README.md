@@ -1,6 +1,6 @@
 "# react-redux-react-router4" 
 
-如何开始？<br/>
+<h3>如何开始？</h3><br/>
 
 首先你得先clone下来，<br/>
 一、安装依赖，环境是node.js 直接cnpm install  --------那么依赖安装完成---------；<br/>
