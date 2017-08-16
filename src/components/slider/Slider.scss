@@ -1,9 +1,20 @@
 .ant-menu-item span a{
     display: inline-block;
-    width:80%;
+    width:90%;
     height:42px;
     color:rgb(155, 163, 163);
 }
 .ant-menu-item-selected span a{
     color: #fff;
+}
+.ant-layout-sider-collapsed .sliders{
+    width:64px;
+    flex:0 0 64px;
+}
+.sliders{
+    position: fixed;
+    left:0;
+    top:0;
+    flex:0 0 200px;
+    width:200px;
 }

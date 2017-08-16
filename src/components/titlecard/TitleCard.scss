@@ -1,0 +1,52 @@
+.TitleCard-body{
+    min-width: 200px;
+    padding:20px 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    margin:20px;
+    border:1px solid rgb(16, 142, 233);
+    background: #fff;
+     &:before,
+	&:after {
+	    content: "";
+	    display: table;
+	}
+	&:after {
+	    clear: both;
+	    visibility: hidden;
+	    font-size: 0;
+	    height: 0;
+	}
+    &:hover{
+        transition: 0.5s;
+        -webkit-transform: scale(1.08);
+		-moz-transform:  scale(1.08);
+		transform:   scale(1.08);
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4);
+		-webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4);
+		-moz-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4);
+       
+    }
+    .title{
+        position: absolute;
+        border-radius: 3px;
+        text-align: center;
+        left:15px;
+        width:60px;
+
+        padding:10px;
+        top:-15px;
+        color: #fff;
+        background: linear-gradient(60deg,#26c6da,#00acc1);
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4);
+   }
+    .TitleCard-content{
+        text-align:center;
+        padding-left:90px;
+        padding-right:20px;
+        p{
+            line-height: 20px;
+        }
+    }
+}

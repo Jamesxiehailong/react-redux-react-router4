@@ -14,8 +14,8 @@ class Slider extends React.Component{
        let {location} = this.props;
        let currentName = []; 
        currentName.push(location.pathname.substring(1));
-        return(
-            <div>
+        return(      
+            <div className="sliders">
                 <div className="logo" />
                 <Menu theme="dark" mode="inline" selectedKeys={currentName}  defaultSelectedKeys={['video']}>
                     <Menu.Item key="video">
@@ -56,4 +56,4 @@ class Slider extends React.Component{
     }
 }
 
-export default withRouter(Slider)
+export default withRouter(Slider);

@@ -45,7 +45,7 @@ class Root extends React.Component {
         isLogin = md_sessionStorage.get('islogin');
      return (
         <Router>   
-          <Layout style={{width:'100%',height:'100%'}}>  
+          <Layout style={{minHeight:'800px'}}>  
              {isLogin || <Login loginChange={this.loginChange}/> }
              {isLogin !== true || <Sider
                   trigger={null}
@@ -59,7 +59,7 @@ class Root extends React.Component {
             <Layout>
               <Head change_slider={this.toggle} collapsed={this.state.collapsed} loginChange={this.loginChange} />
               <Bread/>
-              <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
+              <Content style={{ margin: '24px 16px 0px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
                 <Switch>
                   
                     <Route path="/video" exact component={Video} />
@@ -70,7 +70,7 @@ class Root extends React.Component {
                     <Route path="/historydata" component={HistoryData} />
                     <Route path="/setperson" component={SetPerson} />
                     <Route path="/log" component={Log} />
-                    <Redirect from="/" to="/Video"/> {/*重定向*/}
+                    <Redirect from="/" to="/video"/> {/*重定向*/}
                 </Switch>
                     {this.props.children}
               </Content>
