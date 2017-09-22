@@ -14,8 +14,7 @@
 
 
 
-弱弱的说一句：这个框架自己搭了一下，借鉴了ant-design的组件库。react的组件库ant-design不错，推荐推荐。
+这个项目自己搭了一下，借鉴了ant-design的组件库。react的组件库ant-design不错，推荐推荐。
 <br/><br/><br/><br/><br/><br/>
 
-感谢感谢我师父哈哈：<a href="https://github.com/ghost60">师傅的github</a>
 
