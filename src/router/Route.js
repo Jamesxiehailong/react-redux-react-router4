@@ -42,7 +42,6 @@ class Root extends React.Component {
   }
   render() {
     let {isLogin} = this.state;
-        isLogin = md_sessionStorage.get('islogin');
      return (
         <Router>   
           <Layout style={{minHeight:'800px'}}>  
